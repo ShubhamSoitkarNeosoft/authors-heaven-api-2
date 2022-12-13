@@ -1,0 +1,11 @@
+npx gitignore python
+
+(venv) neosoft@neosoft-Latitude-E7270:~/Desktop/WorkSpace/DjangoApiNgDc$ git remote -v
+origin  https://github.com/ShubhamSoitkarNeosoft/authors-heaven-api-2.git (fetch)
+origin  https://github.com/ShubhamSoitkarNeosoft/authors-heaven-api-2.git (push)
+---
+pip3 install --upgrade pip
+
+
+#For local postgres connection....setting local environment variable
+export DATABASE_URL=postgres://postgres:postgres@127.0.0.1:5432/authors-live
