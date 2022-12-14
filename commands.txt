@@ -48,3 +48,7 @@ authors-live=# \dt
 #quit
 authors-live=# \q
 -------------------------------------------------------------
+nginx
+# upstream -- defines a  group of server which can listen on different ports 
+
+# location - identifies the base path/urls which will get routed to our backend api 
