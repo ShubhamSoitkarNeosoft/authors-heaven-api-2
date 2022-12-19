@@ -1,5 +1,11 @@
 npx gitignore python
 
+# to check all running services
+sudo service --status-all
+
+sudo service docker status
+
+
 (venv) neosoft@neosoft-Latitude-E7270:~/Desktop/WorkSpace/DjangoApiNgDc$ git remote -v
 origin  https://github.com/ShubhamSoitkarNeosoft/authors-heaven-api-2.git (fetch)
 origin  https://github.com/ShubhamSoitkarNeosoft/authors-heaven-api-2.git (push)
