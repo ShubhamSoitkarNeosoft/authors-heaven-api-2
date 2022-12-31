@@ -5,6 +5,11 @@ sudo service --status-all
 
 sudo service docker status
 
+# generating signing key
+python3 -c 'import secrets; print(secrets.token_urlsafe(38))'
+rihSstYqt6xSD8pY67chd0_ZkC-oMRLkM5W3nGNtt-J-4QciJxs
+
+
 
 (venv) neosoft@neosoft-Latitude-E7270:~/Desktop/WorkSpace/DjangoApiNgDc$ git remote -v
 origin  https://github.com/ShubhamSoitkarNeosoft/authors-heaven-api-2.git (fetch)
